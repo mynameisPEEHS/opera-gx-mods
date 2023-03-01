@@ -1,0 +1,47 @@
+{
+    "manifest_version": 3,
+    "name": "NK Cream Sounds",
+    "description": "noice keyboard",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "icon_nk_creams.png"
+    },
+    "author": "mynameisPEEHS",
+    "developer":
+    {
+        "name": "mynameisPEEHS"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+        
+            "keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    "sounds/cream1.mp3",
+                    "sounds/cream4.mp3",
+                    "sounds/cream2.mp3",
+                    "sounds/cream3.mp3"
+
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/creamenter.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/creamspace.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/creambackspace.mp3"
+                ]
+            }
+       }
+    }
+    
+}
