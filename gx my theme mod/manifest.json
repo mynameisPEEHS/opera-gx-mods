@@ -1,0 +1,56 @@
+{
+    "manifest_version": 3,
+    "name": "GX Mint Green Theme",
+    "description": "this is my favourite colour",
+    "version": "1.0",
+    "icons":
+    {
+        "512": "image.png"
+    },
+    "developer":
+    {
+        "name": "mynameisPEEHS"
+    },
+    "mod":
+    {
+        "schema_version": 1,
+        "payload":
+        {
+           
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 140,
+                        "s": 100,
+                        "l": 75
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 180,
+                        "s": 31,
+                        "l": 16
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 140,
+                        "s": 100,
+                        "l": 75
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 0
+                    }
+                }
+   
+            }
+        }
+    }
+}
